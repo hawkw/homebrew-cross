@@ -28,6 +28,6 @@ class X8664UnknownLinuxGnuBinutils < Formula
   end
 
   test do
-     assert_match "main", shell_output("#{bin}/#{TARGET}-gnm #{bin}/#{TARGET}-gnm")
+     assert_match "main", shell_output("#{bin}/#{TARGET}-nm #{bin}/#{TARGET}-nm")
   end
 end

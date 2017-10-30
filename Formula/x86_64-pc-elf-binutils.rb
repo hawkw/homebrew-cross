@@ -27,6 +27,6 @@ class X8664PcElfBinutils < Formula
   end
 
   test do
-     assert_match "main", shell_output("#{bin}/x86_64-pc-elf-gnm #{bin}/x86_64-pc-elf-gnm")
+     assert_match "main", shell_output("#{bin}/x86_64-pc-elf-nm #{bin}/x86_64-pc-elf-nm")
   end
 end
