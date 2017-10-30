@@ -1,5 +1,5 @@
 class X8664UnknownLinuxGnuBinutils < Formula
-  TARGET = "x86_64_unknown_linux_gnu"
+  TARGET = "x86_64-unknown-linux-gnu"
   desc "FSF Binutils for cross-compiling #{TARGET}"
   homepage "https://www.gnu.org/software/binutils/binutils.html"
   url "https://ftpmirror.gnu.org/binutils/binutils-2.25.tar.gz"
